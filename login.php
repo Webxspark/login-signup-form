@@ -40,7 +40,7 @@ if($App->checkLoginStatus()){
                   <label for="formPass">Password</label>
                 </div>
                 <div class="form-check">
-                  <input type="checkbox" name="remember_me" id="remember_me" class="form-check-input">&nbsp;
+                  <input type="checkbox" name="remember_me" id="remember_me" class="form-check-input shadow-none">&nbsp;
                   <label for="form-check-label" for="remember_me">Remember me</label>
                 </div>
                 <div class="form-group">
@@ -62,5 +62,3 @@ if($App->checkLoginStatus()){
   <script src="./js/app.js"></script>
 </body>
 </html>
-
-<!-- Login form is ready -->

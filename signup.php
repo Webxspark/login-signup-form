@@ -28,7 +28,7 @@ if($App->checkLoginStatus()){
         <div class="card">
           <div class="card-body p-11 text-center">
             <div class="form-elements">
-              <h2 class="text-center mb-4">Sign up to Webxspark</h2>
+              <h2 class="text-center mb-4">Create an Account</h2>
               <div id="messages"></div>
               <form id="signup" autocomplete="off" action="#" class="text-start mb-3 pt-3">
                 <div class="form-floating mb-4">
@@ -51,7 +51,7 @@ if($App->checkLoginStatus()){
                   <label for="formCPass">Confirm Password</label>
                 </div>
                 <div class="form-check">
-                  <input type="checkbox" value="accepted" name="t_n_c" id="t_n_c" class="form-check-input">&nbsp;
+                  <input type="checkbox" value="accepted" name="t_n_c" id="t_n_c" class="form-check-input shadow-none">&nbsp;
                   <label for="form-check-label" for="t_n_c">I agree to the <a href="#"
                       class="text-decoration-none">Terms of Service</a> and <a href="#"
                       class="text-decoration-none">Privacy Policy</a></label>
