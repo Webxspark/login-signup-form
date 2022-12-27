@@ -1,0 +1,13 @@
+body {
+    background-image: url('./low-poly-grid-haikei-1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+.form-elements {
+    padding: 30px;
+}
